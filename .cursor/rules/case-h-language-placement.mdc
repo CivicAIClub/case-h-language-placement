@@ -1,0 +1,25 @@
+---
+description: "Project context for Case H: Language Placement (client, status, and what the first meeting must settle)"
+alwaysApply: true
+---
+
+# Case H: Language Placement
+
+## Client
+- **Pablo Montoro Alonso**, World Languages Department, Pomfret School.
+
+## Team
+- Developers: **not yet assigned**. Club lead: Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned.
+
+## Status
+- First meeting being scheduled. No code yet. How placement works today and what the test needs to measure are **open**; do not invent them. When helping here, ask what Pablo Montoro Alonso said in the first meeting, then record the answers in `README.md` and in this rule.
+
+## Likely direction (not a commitment)
+- A test that adapts to each student first. The character comes later, if the school approves the AI part.
+
+## Guidance for the first build
+- Students are under 18. Any AI must run through an account the school owns and approves, never a club member's personal key.
+- The Gemini API's own terms rule out apps used by people under 18, so it isn't an option.
+- Never record or store real students' voices or answers in this repo. Use made-up answers only.
+- Placement decisions stay with the department.
+- Add a `.env.example` the moment any credential or ID is needed.
