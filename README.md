@@ -2,28 +2,35 @@
 
 ## What this is
 
-Pablo Montoro Alonso in the World Languages Department at Pomfret School is the client for this case. He wants a more solid placement test for incoming students, and he imagines an on-screen character students could interact with. The first meeting is being scheduled, so there is no code yet. Status: first meeting being scheduled.
+Pablo Montoro Alonso in the World Languages Department at Pomfret School is the client for this case. The project will support spoken Spanish placement for incoming students.
 
 | | |
 |---|---|
 | **Client** | Pablo Montoro Alonso, World Languages Department, Pomfret School |
-| **Developers** | _Not yet assigned_ |
+| **Developers** | Angie Huang, Martin Ma, Ryker Reissner, Keke Li (lead developer), Luke Ryan (vice president) |
 | **Club lead** | Cayden Auyang |
-| **Status** | 🔵 First meeting being scheduled |
+| **Status** | First meeting held October 21, 2026. Waiting on the department's materials. |
 
 ## The problem
 
-Pablo Montoro Alonso wants a more solid placement test for incoming World Languages students, and he imagines an on-screen character students could interact with.
-
-How placement works today, and what the test needs to measure: _To be written in the first meeting._
+Incoming students take an at-home placement test. Some use translators or AI. Mr. Montoro Alonso wants placement to happen as a spoken conversation.
 
 ## Goal
 
-_To be written in the first meeting._ Likely direction (not a commitment): a test that adapts to each student first. The character comes later, if the school approves the AI part.
+Support spoken Spanish placement while keeping the final placement decision with a Spanish teacher.
+
+## First-meeting decisions
+
+- Placement will use conversation only, with no written test.
+- The planned tool will record each conversation and suggest a level.
+- A Spanish teacher will review every recording and make the placement decision.
+- Results will be kept in one place that other Spanish teachers can open.
+- About 30 to 40 incoming students will use the process each year, over the summer.
+- Placement covers Spanish 1 through Advanced Spanish Literature and Culture, including honors courses.
 
 ## Stack
 
-_Not decided._ Decide in the first meeting and record the decision here and in `.cursor/rules/case-h-language-placement.mdc`.
+_Not decided._ The recording method and whether AI is used are still open. Both require approval from the school's IT office because the students are under 18. Record approved decisions here and in `.cursor/rules/case-h-language-placement.mdc`.
 
 ## Student data and AI
 
@@ -56,9 +63,13 @@ Add code at the repo root (no `projects/` folder). When you add a real setup, wr
 
 ## Definition of done (Phase 1)
 
-_To be written in the first meeting._
+To be written once the department's materials arrive.
 
 ## Contributors
 
 - **Cayden Auyang:** club lead; set up this repository
-- Developers: not yet assigned
+- **Angie Huang:** developer
+- **Martin Ma:** developer
+- **Ryker Reissner:** developer
+- **Keke Li:** lead developer
+- **Luke Ryan:** vice president
