@@ -1,5 +1,5 @@
 ---
-description: "Project context for Case H: Language Placement (client, status, and what the first meeting must settle)"
+description: "Project context for Case H: Language Placement (client, team, first-meeting decisions, and open decisions)"
 alwaysApply: true
 ---
 
@@ -9,13 +9,29 @@ alwaysApply: true
 - **Pablo Montoro Alonso**, World Languages Department, Pomfret School.
 
 ## Team
-- Developers: **not yet assigned**. Club lead: Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned.
+- Developers: **Angie Huang, Martin Ma, Ryker Reissner, Keke Li (lead developer), Luke Ryan (vice president)**.
+- Club lead: Cayden Auyang.
 
 ## Status
-- First meeting being scheduled. No code yet. How placement works today and what the test needs to measure are **open**; do not invent them. When helping here, ask what Pablo Montoro Alonso said in the first meeting, then record the answers in `README.md` and in this rule.
+- First meeting held October 21, 2026. Waiting on the department's materials.
 
-## Likely direction (not a commitment)
-- A test that adapts to each student first. The character comes later, if the school approves the AI part.
+## Problem
+- Incoming students take an at-home placement test. Some use translators or AI. Mr. Montoro Alonso wants placement to happen as a spoken conversation.
+
+## First-meeting decisions
+- Placement will use conversation only, with no written test.
+- The planned tool will record each conversation and suggest a level.
+- A Spanish teacher will review every recording and make the placement decision.
+- Results will be kept in one place that other Spanish teachers can open.
+- About 30 to 40 incoming students will use the process each year, over the summer.
+- Placement covers Spanish 1 through Advanced Spanish Literature and Culture, including honors courses.
+
+## Open decisions
+- The stack is not decided. The recording method and whether AI is used are still open. Both require approval from the school's IT office because the students are under 18.
+- Record approved decisions in `README.md` and in this rule.
+
+## Definition of done (Phase 1)
+To be written once the department's materials arrive.
 
 ## Guidance for the first build
 - Students are under 18. Any AI must run through an account the school owns and approves, never a club member's personal key.
